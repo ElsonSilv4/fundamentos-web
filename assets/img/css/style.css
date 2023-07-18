@@ -16,16 +16,19 @@ Estilos da página index.html
     align-items: center;
 }
 
-#menu li {
+#menu li{
     display: inline;
     margin: 15px;
     text-decoration: none;
+    
 }
 
 #menu li a {
     text-decoration: none;
-    color: rgb(8, 35, 158);
-    font-size: 18;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 3px solid rgb(68, 15, 90);
+    border-radius: 5px;
 }
 
 #menu li a:hover{
@@ -33,7 +36,7 @@ Estilos da página index.html
 }
 
 .p-30 {
-    padding: 20px;
+    padding: 15px;
 }
 
 .p-50 {
@@ -63,4 +66,17 @@ Estilos da página contato.html
 
 .ml-50{
     margin-left: 50px;
+}
+
+.font{
+    font-size: 25px;
+}
+
+.font-22 {
+    font-size: 22px ;
+}
+
+.border-f{
+    border: 10px solid rgb(68, 15, 90);
+    border-radius: 30px;
 }
