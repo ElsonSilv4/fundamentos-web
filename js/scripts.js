@@ -26,7 +26,7 @@ nome.style.width = '100%'
 
 function validaNome() {
     let txt = document.querySelector("#txtNome")
-    if(nome.value.length < 3){
+    if (nome.value.length < 3) {
         txt.innerHTML = "Nome inválido"
         txt.style.color = "red"
     } else {
@@ -40,7 +40,7 @@ function validaCirilo() {
 
     let txtCirilo = document.querySelector("#txtCirilo")
 
-    if(cirilo.value.length >= 100 ){
+    if (cirilo.value.length >= 100) {
         txtCirilo.innerHTML = "Texto é muito grande, digite no máximo 100 caracteres."
         txtCirilo.style.color = "red"
         txtCirilo.style.display = "block"
@@ -51,13 +51,13 @@ function validaCirilo() {
 }
 
 
-function enviar(){
+function enviar() {
     if (nomeOk == false || ciriloOk == false) {
         alert("Preencha corretamente antes de enviar.")
     } else {
         alert("Muito obrigado pela contribuição, " + nome.value + "!")
     }
-   
+
 }
 
 
@@ -67,7 +67,14 @@ function mapaZoom() {
 }
 
 
-function mapaNormal(){
+function mapaNormal() {
     mapa.style.width = "400px"
     mapa.style.height = "300px"
 }
+
+
+
+function changeTheme(){
+    document.body.classList.toogle("dark-theme")
+}
+
