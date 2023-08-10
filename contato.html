@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/img/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <ul class="fonte-Game" id="menu">
+        <LI>
+            <a href="index.html"> Home</a>
+        </LI>
+    </ul>
+
+    <body style="background-color:rgb(239, 240, 241);">
+        <h1 class="center p-50 fonte-Game">Entre em contato comigo!</h1>
+
+        <div class="container mb-50 fonte-Separada">
+
+            <div>
+                <h3>Me indique um Cirilo:</h3>
+                <form>
+                    <label for="Nome">Nome:</label> <br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="Nome do Cirilo">Nome do Cirilo:</label> <br>
+                    <textarea name="Nome do Cirilo" id="cirilo" cols="40" rows="3" onkeyup="validaCirilo()"></textarea>
+                    <div id="txtCirilo"></div>
+                    <br>
+                    <br>
+
+                    <button onclick="enviar()">Enviar</button>
+                </form>
+
+            </div>
+
+            <div class="ml-50 fonte-Separada">
+
+                <h3>Endereço Escola Mundial:</h3>
+                <p>Industrial Anhanguera, Osasco - SP</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117105.65246707882!2d-46.92077275664065!3d-23.
+     476632100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefd4bacecae63%3A0x295bfd74f51569a6!2s
+     Cidade%20Cenogr%C3%A1fica%20do%20SBT!5e0!3m2!1spt-BR!2sbr!4v1689611210340!5m2!1spt-BR!2sbr" width="400"
+                    height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()"
+                    id="mapa"></iframe>
+
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="container tm mb-50">
+                <a href="https://github.com/ElsonSilv4" target="_blank">
+                    <img class="tm p-2" src="assets/img/github.png" alt="github">
+                </a>
+                <a href="https://www.instagram.com/elson.silv4/" target="_blank">
+                    <img class="tm p-2" src="assets/img/instagram (2).png" alt="instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/marielsonsilva/" target="_blank">
+                        <img class="tm p-2" src="assets/img/linkedin.png" alt="linkedin">
+                    </a>
+    
+                </div>
+
+
+            <p class="center fonte-Separada">
+                Todos os direitos reservados: Marielson Santos &copy;
+            </p>
+        </footer>
+
+        <script src="./js/scripts.js"></script>
+
+
+    </body>
+
+</html>
